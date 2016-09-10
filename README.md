@@ -3,6 +3,10 @@ This is my personal website. I built it from scratch. As I took some design cour
 
 In the left pallet of a website, you can see all project I have done recently. By clicking on them, you can run the APP.
 
-This is the screenshot of my website:
+# Technology
+This is static version of my website and only included basic files, but in my personal website I translated this version into dynamic version and used some additional technology like `PHP`, `Javascript` and `Twitter API`.
+
+
+This is the screenshot of my PHP version website:
 
 ![Portfolio](https://github.com/JeffShomali/P1-Portfolio/blob/master/image/P1.png?raw=true)
