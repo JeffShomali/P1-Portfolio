@@ -13,7 +13,7 @@ In the left pallet of a website, you can see all project I have done recently. B
 
 
 ### Technology Used
-This is static version of my website and only included basic files, but in my personal website I translated this version into dynamic version and used some additional technology like `PHP`, `Javascript` and `Twitter API`.
+This is static version of my website and only included basic files, but in my [personal](http://jeffshomali.com) website I converted this version into dynamic version and used some additional technology like `PHP`, `Javascript` and `Twitter API`.
 
 
 This is the screenshot of my PHP version website:
