@@ -1,0 +1,1453 @@
+body {
+
+  margin      : 0;
+  padding     : 0;
+  background  : #f1f2f6;
+  font-family : 'Open Sans',
+                sans-serif;
+}
+
+body a {
+  -moz-transition    : 0.5s all;
+  -ms-transition     : 0.5s all;
+  -o-transition      : 0.5s all;
+  -webkit-transition : 0.5s all;
+  transition         : 0.5s all;
+}
+
+.container-fluid {
+     padding: 0;
+}
+h3 {
+  margin : 0;
+}
+
+p {
+  margin : 0;
+}
+
+ul {
+  margin  : 0;
+  padding : 0;
+}
+
+label {
+  margin : 0;
+}
+
+
+
+/* -----start-header---- */
+
+.top-strip {
+  padding    : 1em;
+  background : #000;
+}
+
+.header {
+  padding : 4em 0;
+}
+
+.user {
+  width : 39%;
+  float : left;
+}
+
+.user a {
+  display : block;
+}
+
+.social-icons {
+  float      : right;
+  margin-top : 1.8em;
+}
+
+.social-icons i {
+  padding-right : 12px;
+  color         : gray;
+}
+
+i.location {
+  display        : inline-block;
+  margin-right   : 5px;
+  vertical-align : middle;
+}
+
+i.love {
+  display        : inline-block;
+  margin-right   : 5px;
+  vertical-align : middle;
+}
+
+i.msg {
+  display        : inline-block;
+  margin-right   : 5px;
+  vertical-align : middle;
+}
+
+i.phone {
+  display        : inline-block;
+  vertical-align : middle;
+}
+
+i.sites {
+  display        : inline-block;
+  margin-right   : 5px;
+  vertical-align : middle;
+}
+
+.about_user {
+  margin        : 4em 0;
+  padding       : 1.5em 0;
+  border-top    : 2px solid #E6E6E6;
+  border-bottom : 2px solid #E6E6E6;
+}
+
+.about_user ul.place {
+  width : 19%;
+  float : left;
+}
+
+.about_user ul.status {
+  width : 14%;
+  float : left;
+}
+
+.about_user ul.message {
+  width        : 26%;
+  float        : left;
+  padding-left : 5%;
+}
+
+.about_user ul.call {
+  width : 23%;
+  float : left;
+}
+
+.about_user ul.sites {
+  width : 18%;
+  float : left;
+}
+
+.about_user ul li {
+  display     : inline-block;
+  color       : #999999;
+  font-size   : 1.4em;
+  font-weight : 300;
+}
+
+.about_user ul li a {
+  color           : #999999;
+  text-decoration : none;
+  font-weight     : 400;
+}
+
+.about_user ul li a:hover {
+  color : #44b76f;
+}
+
+.text p {
+  color       : #999999;
+  font-size   : 2.6em;
+  font-weight : 300;
+  line-height : 1.8em;
+}
+
+.text p a {
+  color           : #e9a600;
+  text-decoration : none;
+  font-weight     : 600;
+}
+
+.top-grid {
+  padding    : 6em 0;
+  background : #000000;
+}
+
+.top-grid h3 {
+  margin-bottom : 1.1em;
+  color         : #fff;
+  font-size     : 2.1em;
+  font-weight   : 700;
+}
+
+.top-grid p {
+  padding       : 1.1em 0;
+  color         : #cccccc;
+  border-bottom : 1px solid #3b3b3b;
+  font-size     : 1.9em;
+  font-weight   : 300;
+}
+
+.top-left-grid p.skill1,
+.top-left-grid p.skill2,
+.top-left-grid p.skill3,
+.top-left-grid p.skill4,
+.top-left-grid p.skill5,
+.top-right-grid p.skill6,
+.top-right-grid p.skill7,
+.top-right-grid p.skill8,
+.top-right-grid p.skill9,
+.top-right-grid p.skill10 {
+  position : relative;
+}
+
+.top-left-grid {
+  padding : 0 30px 0 0;
+}
+
+.top-right-grid {
+  padding : 0 0 0 30px;
+}
+
+.top-left-grid label.color1 {
+  position   : absolute;
+  bottom     : -2px;
+  left       : 0;
+  width      : 455px;
+  height     : 4px;
+  background : #a8d242;
+}
+
+.top-left-grid label.color2 {
+  position   : absolute;
+  bottom     : -2px;
+  left       : 0;
+  width      : 460px;
+  height     : 4px;
+  background : #ff9300;
+}
+
+.top-left-grid label.color3 {
+  position   : absolute;
+  bottom     : -2px;
+  left       : 0;
+  width      : 390px;
+  height     : 4px;
+  background : #411b93;
+}
+
+.top-left-grid label.color4 {
+  position   : absolute;
+  bottom     : -2px;
+  left       : 0;
+  width      : 280px;
+  height     : 4px;
+  background : #76d6ff;
+}
+
+.top-left-grid label.color5 {
+  position   : absolute;
+  bottom     : -2px;
+  left       : 0;
+  width      : 340px;
+  height     : 4px;
+  background : #7848c0;
+}
+
+.top-right-grid label.color6 {
+  position   : absolute;
+  bottom     : -2px;
+  left       : 0;
+  width      : 440px;
+  height     : 4px;
+  background : #ff2841;
+}
+
+.top-right-grid label.color7 {
+  position   : absolute;
+  bottom     : -2px;
+  left       : 0;
+  width      : 300px;
+  height     : 4px;
+  background : #ffffff;
+}
+
+.top-right-grid label.color8 {
+  position   : absolute;
+  bottom     : -2px;
+  left       : 0;
+  width      : 380px;
+  height     : 4px;
+  background : #d6d7ff;
+}
+
+.top-right-grid label.color9 {
+  position   : absolute;
+  bottom     : -2px;
+  left       : 0;
+  width      : 300px;
+  height     : 4px;
+  background : #cddc39;
+}
+
+.top-right-grid label.color10 {
+  position   : absolute;
+  bottom     : -2px;
+  left       : 0;
+  width      : 380px;
+  height     : 4px;
+  background : #4caf50;
+}
+
+/* - - - - -- - - - - - - - - - - - - - - -  Start Seperator - - - - - - - - - - - - - - - - - */
+
+.seperator {
+  width            : 100%;
+  height           : 100px;
+  background-color : black;
+}
+
+/* - - -- - - - - - - - - - - - - - - - - - - End Seperator - - - - - - - - - - - - - - - - - */
+
+
+
+/* - - - - - - - - - - - - - - - - Start Tools Style  - - - - - - - - - - - - - - - - - - - - */
+
+
+.other_tools h2 {
+	margin-bottom: 40px !important;
+}
+
+.other_tools .tools_row {
+	overflow: hidden;
+	text-align: center;
+	line-height: 0;
+}
+
+.other_tools .tools_row .col-md-3 {
+	display: inline-block;
+	min-height: 80px;
+	line-height: 80px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.other_tools .tools_row img {
+	max-width: 140px;
+	opacity: 0.3;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+	-webkit-backface-visibility: none;
+}
+
+.other_tools .tools_row img:hover {
+	opacity: 1;
+}
+
+.other_tools .tools_row .tools-row-wrapper {
+	display: inline-block;
+	width: 80%;
+}
+
+.other_tools .tools_row:last-child .tools-row-wrapper {
+	border-bottom: none;
+}
+
+.other_tools .tools-row-wrapper .col-md-3 {
+
+}
+
+.other_tools .tools-row-wrapper .col-md-3:last-child {
+	border-right: none;
+}
+
+
+/*--------------------- MEDIA QUERIES -------------------------------*/
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+
+	.other_tools .tools_row .tools-row-wrapper
+		border-bottom: none;
+	}
+
+	.other_tools .tools-row-wrapper .col-md-3 {
+		border-right: none;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	.other_tools .tools_row .tools-row-wrapper {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	}
+
+	.other_tools .tools-row-wrapper .col-md-3 {
+		border-right: 1px solid rgba(0, 0, 0, 0.2);
+	}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+
+}
+
+/* - - - - - - - - - - - - - - - - End Tools Style - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - Start Twitter Feed Here - - - - - - - - - - - - - - - */
+
+
+.twitter {
+  padding    : 2em 0;
+  background : #f1f2f7;
+}
+
+.twitter-top {
+  text-align : center;
+}
+
+.twitter-icon {
+  color : #1d8eee;
+}
+
+#top {
+  margin : 2em 0;
+}
+
+#slider2,
+#slider3 {
+  margin     : 0 auto;
+  box-shadow : none;
+}
+
+.rslides_tabs {
+  width      : 100%;
+  max-width  : 540px;
+  margin     : 0 auto 50px;
+  padding    : 0;
+  padding    : 10px 0;
+  background : rgba(0, 0, 0, .25);
+  box-shadow : 0 0 1px rgba(255, 255, 255, .3),
+               inset 0 0 5px rgba(0, 0, 0, 1.0);
+  text-align : center;
+  font-size  : 18px;
+  list-style : none;
+  list-style : none;
+}
+
+.rslides_tabs li {
+  display      : inline;
+  float        : none;
+  margin-right : 1px;
+}
+
+.rslides_tabs a {
+  display     : inline;
+  width       : auto;
+  height      : auto;
+  padding     : 9px 20px;
+  background  : transparent;
+  line-height : 20px;
+}
+
+.rslides_tabs li:first-child {
+  margin-left : 0;
+}
+
+.rslides_tabs .rslides_here a {
+  color       : #fff;
+  background  : rgba(255, 255, 255, .1);
+  font-weight : bold;
+}
+
+.events {
+  list-style : none;
+}
+
+.callbacks_container {
+  position : relative;
+  width    : 100%;
+  float    : left;
+}
+
+.callbacks {
+  position   : relative;
+  width      : 100%;
+  margin     : 0;
+  padding    : 0;
+  overflow   : hidden;
+  list-style : none;
+}
+
+.callbacks li {
+  position : absolute;
+  top      : 0;
+  left     : 0;
+  width    : 100%;
+}
+
+.callbacks img {
+  z-index  : 1;
+  position : relative;
+  height   : auto;
+  border   : 0;
+}
+
+.callbacks .caption {
+  z-index     : 2;
+  display     : block;
+  position    : absolute;
+  top         : 10%;
+  right       : 0;
+  left        : 0;
+  max-width   : none;
+  margin      : 0;
+  padding     : 10px 20px;
+  color       : #fff;
+  text-align  : center;
+  text-shadow : none;
+  font-size   : 20px;
+}
+
+.callbacks_nav {
+  z-index                     : 3;
+  position                    : absolute;
+  top                         : 102%;
+  left                        : 0;
+  width                       : 55px;
+  height                      : 61px;
+  margin-top                  : -65px;
+  opacity                     : 0.7;
+  overflow                    : hidden;
+  background                  : transparent url("../image/aarows.png") no-repeat left top;
+  text-decoration             : none;
+  text-indent                 : -9999px;
+  -webkit-tap-highlight-color : rgba(0, 0, 0, 0);
+}
+
+.callbacks_nav:active {
+  opacity : 1.0;
+}
+
+.callbacks_nav.next {
+  right               : 0;
+  left                : auto;
+  background-position : right top;
+}
+
+#slider3-pager a {
+  display : inline-block;
+}
+
+#slider3-pager span {
+  float : left;
+}
+
+#slider3-pager span {
+  display       : inline-block;
+  width         : 100px;
+  height        : 15px;
+  opacity       : 0.6;
+  border-radius : 30em;
+  background    : #fff;
+}
+
+#slider3-pager .rslides_here a {
+  opacity       : 1;
+  border-radius : 30em;
+  background    : #fff;
+}
+
+#slider3-pager a {
+  padding : 0;
+}
+
+#slider3-pager li {
+  display : inline-block;
+}
+
+.rslides {
+  position   : relative;
+  width      : 100%;
+  margin     : 0;
+  padding    : 0;
+  overflow   : hidden;
+  list-style : none;
+}
+
+.rslides li {}
+
+
+.rslides li {
+  display  : block;
+  position : relative;
+  float    : left;
+}
+
+.rslides img {
+  width  : 100%;
+  height : auto;
+  border : 0;
+}
+
+.callbacks_tabs {
+  z-index    : 999;
+  position   : absolute;
+  top        : 88%;
+  left       : 47%;
+  margin     : 0;
+  padding    : 0;
+  list-style : none;
+}
+
+.callbacks_tabs li {
+  display : inline-block;
+}
+
+.callbacks_tabs a {
+  visibility : hidden;
+}
+
+.callbacks_tabs a:after {
+  content       : "\f111";
+  display       : inline-block;
+  display       : block;
+  visibility    : visible;
+  width         : 18px;
+  height        : 18px;
+  border        : 2px solid #7f8a90;
+  border-radius : 30px;
+  background    : #7f8a90;
+  font-family   : FontAwesome;
+  font-size     : 0;
+}
+
+.callbacks_here a:after {
+  border : 2px solid #282528;
+}
+
+.slider-top p {
+  color       : #7f8a90;
+  font-size   : 18px;
+  font-weight : 700;
+}
+
+/* -- - - - - - - - - - - - - - - - - - - - - End Twitter Feed - - - - - - - - - - - - - - -- */
+
+/* -- - - - - - - - - - - - - - - - - - - - - Start Contact Form - - - - - - - - - - - - - -- */
+
+.contact-section {
+  width      : 100%;
+  height     : 600px;
+  padding    : 4em 0;
+  background : #665cbe;
+}
+
+.contact-section-head h3 {
+  color          : white;
+  text-transform : uppercase;
+  font-size      : 2.2em;
+  font-weight    : 700;
+}
+
+.contact-info input.text,
+.contact-info textarea {
+  width         : 44%;
+  margin        : 10px 25px 20px 0;
+  padding       : 16px 18px;
+  color         : #CACACA;
+  border        : none;
+  border-radius : 7px;
+  background    : #F3F3F3;
+  outline       : none;
+  font-size     : 17px;
+  font-weight   : 300;
+}
+
+.contact-info textarea {
+  width         : 90.5%;
+  height        : 13em;
+  margin-bottom : 1em;
+  resize        : none;
+}
+
+.contact-info input[type="button"] {
+  padding        : 15px 25px;
+  color          : #555;
+  border         : none;
+  border-radius  : 5px;
+  background     : #fff;
+  outline        : none;
+  text-transform : uppercase;
+  font-size      : 16px;
+  font-weight    : 700;
+}
+
+.contact-info input[type="button"]:hover {
+  background : #e9a600;
+}
+
+/* -- - - - - - - - - - - - - - - - - - - - - End Contact Form - - - - - - - - - - - - - - -- */
+
+/* -- - - - - - - - - - - - - - - - - - - - - Start Footer - - - - - - - - - - - - - - - - -- */
+
+.footer {
+  padding    : 2em 0;
+  background : #232323;
+}
+
+.copy-write-text p {
+  color       : rgb(134, 134, 134);
+  font-size   : 14px;
+  font-weight : 300;
+}
+
+.footer-heart{
+     color: red;
+}
+/* -- - - - - - - - - - - - - - - - - - - - - End Footer - - - - - - - - - - - - - - - - - -- */
+
+/*-- - - - - - - - - - - - - - - - - - - - - Responsive Design Start - - - - - - - - - - - - - - - --
+*/
+
+
+@media screen
+       and (max-width: 1366px) {
+  .about_user {
+    margin  : 3.2em 0;
+    padding : 1.3em 0;
+  }
+
+  .text p {
+    font-size : 2.5em;
+  }
+
+  .header {
+    padding : 4em 0;
+  }
+}
+
+@media screen
+       and (max-width: 1280px) {
+  .about_user ul li {
+    vertical-align : middle;
+    font-size      : 1.3em;
+    font-weight    : 400;
+  }
+
+  .text p {
+    font-size   : 2.4em;
+    line-height : 1.7em;
+  }
+
+  .user img {
+    width : 95%;
+  }
+}
+
+@media screen
+       and (max-width: 1024px) {
+  i.location,
+  i.love,
+  i.msg,
+  i.sites {
+    margin-right : 1px;
+  }
+
+  .about_user ul li {
+    font-size : 1.2em;
+  }
+
+  .user img {
+    width : 80%;
+  }
+
+  .social-icons {
+    margin-top : 1.5em;
+  }
+
+  .about_user {
+    margin  : 3em 0;
+    padding : 1em 0;
+  }
+
+  .text p {
+    font-size   : 2.2em;
+    line-height : 1.6em;
+  }
+
+  .header {
+    padding : 3em 0 3.5em 0;
+  }
+
+  .top-grid h3 {
+    margin-bottom : 0.85em;
+    font-size     : 1.85em;
+  }
+
+  .top-grid p {
+    padding   : 1em 0;
+    font-size : 1.7em;
+  }
+
+  .top-left-grid label.color1,
+  .top-right-grid label.color6 {
+    width  : 400px;
+    height : 3px;
+  }
+
+  .top-left-grid label.color2 {
+    width  : 405px;
+    height : 3px;
+  }
+
+  .top-left-grid label.color3 {
+    width  : 335px;
+    height : 3px;
+  }
+
+  .top-left-grid label.color4 {
+    width  : 250px;
+    height : 3px;
+  }
+
+  .top-left-grid label.color5 {
+    width  : 285px;
+    height : 3px;
+  }
+
+  .top-right-grid label.color7,
+  .top-right-grid label.color9 {
+    width  : 240px;
+    height : 3px;
+  }
+
+  .top-right-grid label.color8,
+  .top-right-grid label.color10 {
+    width  : 320px;
+    height : 3px;
+  }
+
+  .top-grid {
+    padding : 5em 0;
+  }
+
+  .about_user {
+    margin  : 2.5em 0;
+    padding : 1em 0;
+  }
+}
+
+@media screen
+       and (max-width: 800px) {
+  .top-right-grid {
+    margin-top : 4em;
+    padding    : 0 15px;
+  }
+
+  .top-left-grid {
+    padding : 0 15px;
+  }
+
+  .top-grid h3 {
+    margin-bottom : 0.5em;
+    font-size     : 1.9em;
+  }
+
+  .top-grid {
+    padding : 4em 0;
+  }
+
+  .top-left-grid label.color1,
+  .top-right-grid label.color6 {
+    width  : 580px;
+    height : 3px;
+  }
+
+  .top-left-grid label.color2 {
+    width : 600px;
+  }
+
+  .top-left-grid label.color3 {
+    width : 450px;
+  }
+
+  .top-left-grid label.color5 {
+    width : 390px;
+  }
+
+  .top-left-grid label.color4 {
+    width : 300px;
+  }
+
+  .top-right-grid label.color7,
+  .top-right-grid label.color9 {
+    width : 330px;
+  }
+
+  .top-right-grid label.color8,
+  .top-right-grid label.color10 {
+    width : 430px;
+  }
+
+  .text p {
+    font-size : 1.6em;
+  }
+
+  .user img {
+    width : 75%;
+  }
+
+  .social-icons i {
+    margin-right : 2px;
+  }
+
+  .about_user ul.sites {
+    display : none;
+  }
+
+  .about_user ul li {
+    font-size : 1.1em;
+  }
+
+  .about_user ul.place {
+    width : 24%;
+  }
+
+  .about_user ul.status {
+    width : 17%;
+  }
+
+  .about_user ul.message {
+    width : 33%;
+  }
+
+  .about_user ul.call {
+    width : 26%;
+  }
+
+  .about_user {
+    margin  : 1.8em 0;
+    padding : 0.8em 0;
+  }
+}
+
+@media screen
+       and (max-width: 768px) {
+  .header {
+    padding : 2em 0 2.5em 0;
+  }
+
+  .social-icons {
+    margin-top : 1.3em;
+  }
+
+  .top-grid p {
+    font-size : 1.6em;
+  }
+}
+
+@media screen
+       and (max-width: 640px) {
+  .top-strip {
+    padding : 0.8em;
+  }
+
+  .top-grid h3 {
+    margin-bottom : 0.4em;
+    font-size     : 1.7em;
+  }
+
+  .top-grid p {
+    padding   : 0.9em 0;
+    font-size : 1.5em;
+  }
+
+  .top-left-grid label.color1,
+  .top-right-grid label.color6 {
+    width  : 470px;
+    height : 2px;
+  }
+
+  .top-left-grid label.color2 {
+    width  : 490px;
+    height : 2px;
+  }
+
+  .top-left-grid label.color3 {
+    width  : 375px;
+    height : 2px;
+  }
+
+  .top-left-grid label.color4 {
+    width  : 250px;
+    height : 2px;
+  }
+
+  .top-left-grid label.color5 {
+    width  : 310px;
+    height : 2px;
+  }
+
+  .top-right-grid label.color7,
+  .top-right-grid label.color9 {
+    width  : 265px;
+    height : 2px;
+  }
+
+  .top-right-grid label.color8,
+  .top-right-grid label.color10 {
+    width  : 360px;
+    height : 2px;
+  }
+
+  .user img {
+    width : 70%;
+  }
+
+  .social-icons i {
+    padding-right : 0;
+    padding-left  : 1%;
+    font-size     : 1.5em;
+  }
+
+  .text p {
+    font-size : 1.35em;
+  }
+
+  .about_user ul.status {
+    display : none;
+  }
+
+  .about_user ul.place {
+    width : 30%;
+  }
+
+  .about_user ul.message {
+    width : 40%;
+  }
+
+  .about_user ul.call {
+    width : 30%;
+  }
+
+  .about_user {
+    margin  : 1.5em 0;
+    padding : 0.6em 0;
+  }
+}
+
+@media screen
+       and (max-width: 480px) {
+  .social-icons i {
+    margin-right : 0px;
+  }
+
+  .user img {
+    width : 65%;
+  }
+
+  .social-icons {
+    margin-top : 1em;
+  }
+
+  .about_user ul.call {
+    display : none;
+  }
+
+  .about_user ul.place {
+    width : 33%;
+  }
+
+  .about_user ul.message {
+    width : 45%;
+  }
+
+  .about_user ul.status {
+    display : block;
+    width   : 22%;
+  }
+
+  .about_user ul li {
+    font-size : 1em;
+  }
+
+  i.location {
+    margin-right    : 0;
+    background-size : 300px;
+  }
+
+  i.love {
+    margin-right    : 0px;
+    background-size : 300px;
+  }
+
+  i.msg {
+    margin-right    : 0px;
+    background-size : 300px;
+  }
+
+  .text p {
+    font-size : 1.15em;
+  }
+
+  .top-grid h3 {
+    margin-bottom : 0.3em;
+    font-size     : 1.6em;
+  }
+
+  .top-grid {
+    padding : 3em 0;
+  }
+
+  .top-grid p {
+    padding   : 0.8em 0;
+    font-size : 1.35em;
+  }
+
+  .top-left-grid,
+  .top-right-grid {
+    padding : 0;
+  }
+
+  .top-left-grid label.color1,
+  .top-right-grid label.color6 {
+    width : 360px;
+  }
+
+  .top-left-grid label.color2 {
+    width : 375px;
+  }
+
+  .top-left-grid label.color3 {
+    width : 290px;
+  }
+
+  .top-left-grid label.color4 {
+    width : 200px;
+  }
+
+  .top-left-grid label.color5 {
+    width : 240px;
+  }
+
+  .top-right-grid label.color7,
+  .top-right-grid label.color9 {
+    width : 220px;
+  }
+
+  .top-right-grid label.color8,
+  .top-right-grid label.color10 {
+    width : 290px;
+  }
+
+  .top-right-grid {
+    margin-top : 3em;
+  }
+}
+
+@media screen
+       and (max-width: 320px) {
+  .top-strip {
+    padding : 0.5em;
+  }
+
+  .top-grid h3 {
+    margin-bottom : 0.6em;
+    font-size     : 1.2em;
+  }
+
+  .top-grid p {
+    padding   : 0.7em 0;
+    font-size : 1.15em;
+  }
+
+  .top-left-grid label.color1,
+  .top-right-grid label.color6 {
+    width : 225px;
+  }
+
+  .top-left-grid label.color2 {
+    width : 240px;
+  }
+
+  .top-left-grid label.color3 {
+    width : 190px;
+  }
+
+  .top-left-grid label.color4 {
+    width : 120px;
+  }
+
+  .top-left-grid label.color5 {
+    width : 160px;
+  }
+
+  .top-right-grid label.color8,
+  .top-right-grid label.color10 {
+    width : 190px;
+  }
+
+  .top-right-grid label.color7,
+  .top-right-grid label.color9 {
+    width : 130px;
+  }
+
+  .about_user ul.call,
+  .about_user ul.message,
+  .about_user ul.place,
+  .about_user ul.status {
+    display : block;
+    width   : 100%;
+    margin  : 7px 0;
+  }
+
+  .text p {
+    font-size : 1em;
+  }
+
+  i.location {
+    margin-right : 5px;
+  }
+
+  i.love,
+  i.msg {
+    margin-right : 4px;
+  }
+
+  i.phone {
+    width : 24px;
+  }
+
+  .user {
+    width : 50%;
+  }
+
+  .social-icons {
+    margin-top : 0.8em;
+  }
+
+  .user img {
+    width : 94%;
+  }
+
+  .header {
+    padding : 1.8em 0 2em 0;
+  }
+
+  .about_user {
+    margin  : 1.2em 0;
+    padding : 0.2em 0;
+  }
+}
+
+/* -- - - - - - - - - - - - - - - - - - - - - Timeline - - - - - - - - - - - - - - - - */
+
+.documents {
+  margin-top : 40px;
+  background-color: rgb(241, 242, 246);
+
+}
+
+h2.experience-title {
+     text-align: center;
+     font-size: 30px;
+     font-weight: 800;
+}
+
+dd,
+dt {
+  line-height : 1.42857143;
+}
+
+.pull-left {
+  float : left !important;
+}
+
+p {
+  margin : 0 0 10px;
+}
+
+/* START */
+
+.timeline dl {
+  position : relative;
+  top      : 0;
+  margin   : 0;
+  padding  : 20px 0;
+}
+
+.timeline dl:before {
+  z-index          : 100;
+  content          : '';
+  position         : absolute;
+  top              : 0;
+  bottom           : 0;
+  left             : 50%;
+  width            : 2px;
+  margin-left      : -1px;
+  background-color : #ccd1d9;
+}
+
+.timeline dl dt {
+  z-index               : 200;
+  position              : relative;
+  top                   : 30px;
+  width                 : 120px;
+  margin                : 0 auto 30px;
+  padding               : 3px 5px;
+  color                 : #fff;
+  -moz-border-radius    : 4px;
+  -webkit-border-radius : 4px;
+  border-radius         : 4px;
+  background-color      : #777777;
+  text-align            : center;
+  font-weight           : 400;
+}
+
+.timeline dl dd {
+  z-index  : 200;
+  position : relative;
+}
+
+.timeline dl dd .circ {
+  z-index               : 200;
+  position              : absolute;
+  top                   : 40px;
+  left                  : 50%;
+  width                 : 22px;
+  height                : 22px;
+  margin-left           : -11px;
+  border                : 4px solid #f5f7fa;
+  -moz-border-radius    : 50%;
+  -webkit-border-radius : 50%;
+  border-radius         : 50%;
+  background-color      : #777;
+}
+
+.timeline dl dd .time {
+  display     : inline-block;
+  position    : absolute;
+  top         : 31px;
+  left        : 50%;
+  width       : 100px;
+  padding     : 10px 20px;
+  color       : #665cbe;
+  font-weight : 600;
+}
+
+.timeline dl dd .events {
+  position              : relative;
+  width                 : 47%;
+  margin-top            : 31px;
+  padding               : 10px 10px 0;
+  -moz-border-radius    : 4px;
+  -webkit-border-radius : 4px;
+  border-radius         : 4px;
+  background-color      : #fff;
+}
+
+.timeline dl dd .events:before {
+  content      : '';
+  position     : absolute;
+  top          : 12px;
+  width        : 0;
+  height       : 0;
+  border-width : 6px;
+  border-style : solid;
+}
+
+.timeline dl dd .events .events-object {
+  margin-right : 10px;
+  color        : #665cbe;
+}
+
+.timeline dl dd .events .events-body {
+  zoom     : 1;
+  overflow : hidden;
+}
+
+.timeline dl dd .events .events-body .events-heading {
+  margin      : 0 0 10px;
+  font-size   : 14px;
+  font-weight : 900;
+}
+
+.timeline dl dd.pos-right .time {
+  margin-left : -100px;
+  text-align  : right;
+}
+
+.timeline dl dd.pos-right .events {
+  float : right;
+}
+
+.timeline dl dd.pos-right .events:before {
+  left         : -12px;
+  border-color : transparent #fff transparent transparent;
+}
+
+.timeline dl dd.pos-left .time {
+  margin-left : 0;
+  text-align  : left;
+}
+
+.timeline dl dd.pos-left .events {
+  float : left;
+}
+
+.timeline dl dd.pos-left .events:before {
+  right        : -12px;
+  border-color : transparent transparent transparent #fff;
+}
+
+@media screen
+       and (max-width: 767px) {
+  .timeline dl:before {
+    left : 60px;
+  }
+
+  .timeline dl dt {
+    margin : 0 0 30px;
+  }
+
+  .timeline dl dd .circ {
+    left : 60px;
+  }
+
+  .timeline dl dd .time {
+    left : 0;
+  }
+
+  .timeline dl dd.pos-left .time {
+    margin-left : 0;
+    padding     : 10px 0;
+    text-align  : left;
+  }
+
+  .timeline dl dd.pos-left .events {
+    width : 84%;
+    float : right;
+  }
+
+  .timeline dl dd.pos-left .events:before {
+    left         : -12px;
+    border-color : transparent #fff transparent transparent;
+  }
+
+  .timeline dl dd.pos-right .time {
+    margin-left : 0;
+    padding     : 10px 0;
+    text-align  : left;
+  }
+
+  .timeline dl dd.pos-right .events {
+    width : 84%;
+    float : right;
+  }
+}
