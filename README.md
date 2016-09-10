@@ -3,7 +3,16 @@ This is my personal website. I built it from scratch. As I took some design cour
 
 In the left pallet of a website, you can see all project I have done recently. By clicking on them, you can run the APP.
 
-# Technology
+### Prerequisites Courses to Finish this Project
+1. Intro to HTML and CSS (UD304)
+     + Course built by [Udacity](https://www.udacity.com/course/intro-to-html-and-css--ud304)
+2. Responsive Web Design Fundamentals (UD893)
+     + Course built by [Google](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893)
+3. Responsive Images (Ud882)
+     + Course built by [Google](https://www.udacity.com/course/responsive-images--ud882)
+
+
+### Technology Used
 This is static version of my website and only included basic files, but in my personal website I translated this version into dynamic version and used some additional technology like `PHP`, `Javascript` and `Twitter API`.
 
 
